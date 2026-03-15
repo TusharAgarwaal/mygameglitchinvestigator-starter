@@ -55,7 +55,9 @@ tests/test_game_logic.py::test_get_range_for_difficulty PASSED           [100%]
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 - What change did you make that finally gave the game a stable secret number?
 
----
+--- The secret number is a random number generated but originally it was harcoded to be between 1 & 100 instead of the range of the mode selected.
+--- I will explain my friend that this acts like an app and sometimes you need to close and rerun in case the app gets buggy like in the phone.
+--- I changed the hardcoded range of the secret number to the range of the mode selected, which makes it fall within the expected range and betetr to guess it.
 
 ## 5. Looking ahead: your developer habits
 
@@ -63,3 +65,7 @@ tests/test_game_logic.py::test_get_range_for_difficulty PASSED           [100%]
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+--- I will use AI as an assistant which will make things work faster and easier. Like making same changes to several places and in different files.
+--- I will not allow AI to make direct changes without reviewing it as AI could be wrong or it misunderstood from the prompt I gave.
+--- AI definitely makes coding faster and easier to debug. The generated code will be correct but not logically as the way expected, hence supervision is required.
